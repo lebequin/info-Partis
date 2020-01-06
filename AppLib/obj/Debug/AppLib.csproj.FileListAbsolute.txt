@@ -1,0 +1,5 @@
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\AppLib\bin\Debug\AppLib.dll
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\AppLib\bin\Debug\AppLib.pdb
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\AppLib\obj\Debug\AppLib.csprojAssemblyReference.cache
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\AppLib\obj\Debug\AppLib.dll
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\AppLib\obj\Debug\AppLib.pdb

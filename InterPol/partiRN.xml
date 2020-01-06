@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PartiRN>
+  <Representant>Marine le Pen</Representant>
+  <img>image/portraits/LePen.jpg</img>
+  <Biographie>
+    Marine Le Pen est née le 5 août 1968 à Neuilly-sur-Seine. Engagée au Front National, parti fondé par son père Jean-Marie Le Pen, elle prend la tête du FN en 2011 lors du congrès de Tours. Elle a été élue sur plusieurs mandats locaux depuis 1998 (conseillère régionale des Hauts-de-France, conseillère municipale d'Hénin-Beaumont), et siège au Parlement européen depuis 2004. Elle se présente à l'élection présidentielle de 2012, où elle obtient 17,90% des suffrages exprimés au premier tour. En 2017, elle se présente de nouveau à l'élection présidentielle.
+  </Biographie>
+  <Parti>
+    Le Rassemblement national (RN), dénommé Front national (FN) jusqu'au 1er juin 2018, est un parti politique français fondé en 1972 à l'initiative d'Ordre nouveau sous la dénomination officielle Front national pour l'unité française (FNUF). Il est présidé par Jean-Marie Le Pen — de sa création à 2011 — puis par sa fille Marine Le Pen.
+    Le FN émerge dans le paysage politique français au cours des années 1980, obtenant notamment, à l'issue des élections législatives de 1986, un groupe parlementaire (FN-RN) constitué de 35 députés. Candidat à l'élection présidentielle à cinq reprises, Jean-Marie Le Pen parvient à se qualifier au second tour du scrutin présidentiel de 2002 face à Jacques Chirac. Par la suite, le FN obtient d'importants succès électoraux, terminant notamment en première position aux élections européennes de 2014 et au premier tour des régionales de 2015. Marine Le Pen se qualifie au second tour de l'élection présidentielle de 2017, à l'issue duquel elle obtient 33,90 % des voix face à Emmanuel Macron.
+    La plupart des observateurs politiques situent le FN à l'extrême droite, mais ses représentants récusent en général cette appartenance pour lui préférer d'autres qualificatifs ou proposer d'autres façons d'envisager l'axe gauche-droite. Au niveau européen, il est membre du Mouvement pour l'Europe des nations et des libertés depuis 2014.
+    En 2018, le FN revendique 38 000 adhérents à jour de cotisation22.
+  </Parti>
+  <logo>images/logo/logoRN.png</logo>
+</PartiRN>

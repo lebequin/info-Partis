@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Regions>
+  <Region Top = "200" Left = "275" Nom = "Auvergne-Rhône-Alpes"/>
+  <Region Top = "130" Left = "275" Nom = "Bourgogne-Franche-Comté" />
+  <Region Top = "100" Left = "120" Nom = "Bretagne"/>
+  <Region Top = "40" Left = "242" Nom = "Hauts-de-France"/>
+  <Region Top = "130" Left = "205" Nom = "Centre-Val-de-Loire"/>
+  <Region Top = "295" Left = "381" Nom = "Corse"/>
+  <Region Top = "80" Left = "315" Nom = "Grand-Est"/>
+  <Region Top = "80" Left = "238" Nom = "Île-de-France" />
+  <Region Top = "72" Left = "180" Nom = "Normandie"/>
+  <Region Top = "190" Left = "185" Nom = "Nouvelle-Aquitaine"/>
+  <Region Top = "260" Left = "235" Nom = "Occitanie"/>
+  <Region Top = "125" Left = "150" Nom = "Pays-de-la-Loire"/>
+  <Region Top = "250" Left = "310" Nom = "Provence-Alpes-Côte-d'Azur"/>
+  <Region Top = "351" Left = "290" Nom = "Guadeloupe"/>
+  <Region Top = "315" Left = "140" Nom = "Guyane"/>
+  <Region Top = "325" Left = "200" Nom = "Martinique"/>
+  <Region Top = "325" Left = "75" Nom = "LaRéunion"/>
+  <Region Top = "230" Left = "90" Nom = "Mayotte"/> 
+</Regions>

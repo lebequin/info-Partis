@@ -1,0 +1,25 @@
+﻿<Window x:Class="InterPol.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterPol"
+        xmlns:local1="clr-namespace:InterPol.Converter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="900">
+    <DockPanel>
+        <ListBox DockPanel.Dock="Left"
+                 MaxWidth="150" 
+                 SelectionChanged="ListBox_SelectionChanged"
+                 Background="#333"
+                 Foreground="White">
+            <ListBoxItem>Accueil</ListBoxItem>
+            <ListBoxItem>Carte</ListBoxItem>
+            <ListBoxItem>Partis</ListBoxItem>
+            <ListBoxItem>Histoire</ListBoxItem>
+            <ListBoxItem>Sondage</ListBoxItem>
+            <ListBoxItem>Documents</ListBoxItem>
+        </ListBox>
+        <ContentControl x:Name="mainPart" Margin="4"/>
+    </DockPanel>
+</Window>

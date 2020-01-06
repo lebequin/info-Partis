@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PartiFI>
+  <Representant>Mélanchon</Representant>
+  <img>image/portraits/Melanchon.jpg</img>
+  <Biographie>
+    Jean-Luc Mélenchon est un homme politique français. Né en 1951 à Tanger, au Maroc, il entre au Parti socialiste en 1976. Figure de l'aile gauche du parti, il est élu conseiller municipal de Massy en 1983, conseiller général de l'Essonne en 1985 et sénateur du département l'année suivante. Il obtient le poste de ministre délégué à la formation professionnelle entre 2000 et 2002, dans le gouvernement de Lionel Jospin.
+    Il quitte le PS en 2008, pour fonder le Parti de gauche (PG). Il est élu député européen en 2009 et réélu en 2014, sous l'étiquette du Front de gauche, coalition qui regroupe notamment le PG, le Parti communiste français et la Gauche unitaire. C'est aussi sous la bannière du Front de gauche que Jean-Luc Mélenchon se présente à l'élection présidentielle de 2012, où il obtient 11,1% des voix. En 2017, il se présente de nouveau à l'élection présidentielle, sous la bannière de la France insoumise.
+  </Biographie>
+  <Parti>
+    La France insoumise est un parti politique français de gauche fondé le 10 février 2016.
+    Le parti présente à l'élection présidentielle de 2017 la candidature de Jean-Luc Mélenchon, qui, à l'issue du premier tour, arrive en quatrième position avec 19,58 % des suffrages exprimés, dépassant largement le score du candidat du Parti socialiste, Benoît Hamon (6,36 %). À l'issue du second tour des élections législatives de 2017, la France insoumise forme un groupe parlementaire de dix-sept députés à l'Assemblée nationale, qui élit à sa tête Jean-Luc Mélenchon en tant que président de groupe.
+  </Parti>
+  <logo>images/logo/logoFI.png</logo>
+</PartiFI>

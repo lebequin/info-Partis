@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E277BA92-A573-4EA1-A76E-6E899AF73820}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>InterPol</RootNamespace>
+    <AssemblyName>InterPol</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\PersLib\XML\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=1.1.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.1.3\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.1.1345, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.5.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Chart.Controls.4.7.2046\lib\net35\System.Web.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Chart.Controls.4.7.2046\lib\net35\System.Web.DataVisualization.Design.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Chart.Controls.4.7.2046\lib\net35\System.Windows.Forms.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Chart.Controls.4.7.2046\lib\net35\System.Windows.Forms.DataVisualization.Design.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="TemplateSelectors\ArticleTemplateSelector.cs" />
+    <Compile Include="Converter\DateConverter.cs" />
+    <Compile Include="TemplateSelectors\TypeDonneeTemplateSelector.cs" />
+    <Compile Include="UserControls\AddDoc.xaml.cs">
+      <DependentUpon>AddDoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AddSondage.xaml.cs">
+      <DependentUpon>AddSondage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AjoutParti.xaml.cs">
+      <DependentUpon>AjoutParti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ResultatMap.xaml.cs">
+      <DependentUpon>ResultatMap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SondageUC.xaml.cs">
+      <DependentUpon>SondageUC.xaml</DependentUpon>
+    </Compile>
+    <Page Include="UserControls\AddDoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\AddSondage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Documentation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\HistoryUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Converter\VisibilityConverter.cs" />
+    <Compile Include="Pages\Documentation.xaml.cs">
+      <DependentUpon>Documentation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\HistoryUC.xaml.cs">
+      <DependentUpon>HistoryUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Pages\MapUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PartisUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PresentationParti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\AjoutParti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ResultatMap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SondageUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pages\MapUC.xaml.cs">
+      <DependentUpon>MapUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PartisUC.xaml.cs">
+      <DependentUpon>PartisUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PresentationParti.xaml.cs">
+      <DependentUpon>PresentationParti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppLib\AppLib.csproj">
+      <Project>{40E8BFE8-2586-4944-BBE7-510ED4FD0BFC}</Project>
+      <Name>AppLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InfoPartiApp\InfoPartiApp.csproj">
+      <Project>{2dc7d073-2dfc-488b-9ded-496761ca1dc6}</Project>
+      <Name>InfoPartiApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersLib\PersLib.csproj">
+      <Project>{212858CC-5B49-4CA7-B4A5-C8275C0C2389}</Project>
+      <Name>PersLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stub\StubLib.csproj">
+      <Project>{D6543357-6E3F-456A-96F6-D5FB8F25952B}</Project>
+      <Name>StubLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cartes\rep5carte.jpg" />
+    <Resource Include="images\cartes\rep2carte.jpg" />
+    <Resource Include="images\cartes\c1.png" />
+    <Resource Include="images\cartes\c4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Europ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\logo\logoEELV.jpg" />
+    <Resource Include="images\logo\logoFI.png" />
+    <Resource Include="images\logo\logoLR.png" />
+    <Resource Include="images\logo\LogoLREM.jpg" />
+    <Resource Include="images\logo\logoPS.png" />
+    <Resource Include="images\logo\logoRN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\LePen.jpg" />
+    <Resource Include="images\portraits\Macron.jpg" />
+    <Resource Include="images\portraits\Melanchon.jpg" />
+    <Resource Include="images\portraits\Wauquiez.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Documents\banniere.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\Jadot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\Gluksmann.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\cartes\France-regions.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\ResPresidentielles\2007\Auvergne-Rhône-Alpes2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Bourgogne-Franche-Comté2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Bretagne2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Centre-Val-de-Loire2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Corse2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Grand-Est2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Guadeloupe2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Guyane2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Hauts-de-France2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\LaRéunion2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Martinique2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Mayotte2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Normandie2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Nouvelle-Aquitaine2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Occitanie2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Pays-de-la-Loire2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Provence-Alpes-Côte-d%27Azur2007.png" />
+    <Resource Include="images\ResPresidentielles\2007\Île-de-France2007.png" />
+    <Resource Include="images\ResPresidentielles\2017\Auvergne-Rhône-Alpes2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Bourgogne-Franche-Comté2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Bretagne2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Centre-Val-de-Loire2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Corse2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Grand-Est2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Guadeloupe2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Guyane2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Hauts-de-France2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\LaRéunion2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Martinique2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Mayotte2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Normandie2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Nouvelle-Aquitaine2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Occitanie2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Pays-de-la-Loire2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Provence-Alpes-Côte-d%27Azur2017.png" />
+    <Resource Include="images\ResPresidentielles\2017\Île-de-France2017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\ResPresidentielles\2012\Auvergne-Rhône-Alpes2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Bourgogne-Franche-Comté2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Bretagne2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Centre-Val-de-Loire2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Corse2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Grand-Est2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Guadeloupe2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Guyane2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Hauts-de-France2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\LaRéunion2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Martinique2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Mayotte2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Normandie2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Nouvelle-Aquitaine2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Occitanie2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Pays-de-la-Loire2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Provence-Alpes-Côte-d%27Azur2012.png" />
+    <Resource Include="images\ResPresidentielles\2012\Île-de-France2012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\NicolasDUPONT-AIGNAN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\logo\logoDLF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\BenoitHAMON.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\logo\LogoGS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\ManonAUBRY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\François-XavierBELLAMY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\NathalieLOISEAU.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\IanBROSSAT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\logo\logoPCF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\portraits\JordanBARDELLA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Documents\debatEuropeennes.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

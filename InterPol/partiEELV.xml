@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<PartiEELV>
+  <Representant>Yannick Jadot</Representant>
+  <img>image/portraits/Jadot.jpg</img>
+  <Biographie>
+    Yannick Jadot, né le 27 juillet 1967 à Clacy-et-Thierret (Aisne), est un militant écologiste et homme politique français.
+    Député européen depuis 2009, il est désigné candidat d'Europe Écologie Les Verts (EELV) à l'élection présidentielle de 2017 avant de se retirer en faveur de Benoît Hamon, candidat du Parti socialiste.
+  </Biographie>
+  <Parti>
+    Europe Écologie Les Verts (abrégé en EÉLV) est un parti politique écologiste français de centre gauche qui succède au parti Les Verts le 13 novembre 2010, à la suite d'un changement de statuts permettant de rassembler les militants venus dans le cadre des listes Europe Écologie aux élections européennes de 2009 et régionales de 2010.
+  </Parti>
+  <logo>images/logo/logoEELV.png</logo>
+</PartiEELV>

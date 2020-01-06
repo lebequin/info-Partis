@@ -1,0 +1,8 @@
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\Stub\bin\Debug\Stub.dll
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\Stub\bin\Debug\Stub.pdb
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\Stub\bin\Debug\AppLib.dll
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\Stub\bin\Debug\AppLib.pdb
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\Stub\obj\Debug\StubLib.csprojAssemblyReference.cache
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\Stub\obj\Debug\StubLib.csproj.CopyComplete
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\Stub\obj\Debug\Stub.dll
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\Stub\obj\Debug\Stub.pdb

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Documents>
+  <Document Lien="..\images\Documents\debatEuropeennes.jpg">
+    <DateAjout>20/06/2019</DateAjout>
+    <Type>img</Type>
+  </Document>
+  <Document Lien="..\images\Documents\banniere.jpg">
+    <DateAjout>01/06/2019</DateAjout>
+    <Type>img</Type>
+  </Document>
+</Documents>

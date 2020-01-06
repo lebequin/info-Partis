@@ -1,0 +1,8 @@
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\PersLib\XML\PersLib.dll
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\PersLib\XML\PersLib.pdb
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\PersLib\XML\AppLib.dll
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\PersLib\XML\AppLib.pdb
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\PersLib\obj\Debug\PersLib.csprojAssemblyReference.cache
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\PersLib\obj\Debug\PersLib.csproj.CopyComplete
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\PersLib\obj\Debug\PersLib.dll
+C:\Users\Léo Béquin\Desktop\infopartis\Programmation\PersLib\obj\Debug\PersLib.pdb

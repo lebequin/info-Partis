@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PartiLR>
+  <Representant>Laurent Wauquiez</Representant>
+  <img>image/portraits/wauquiez.jpg</img>
+  <Biographie>
+    Laurent Wauquiez a, né le 12 avril 1975 à Lyon, est un homme politique français.
+    Devenu député en 2004 en remplacement de Jacques Barrot, il est nommé en 2007 secrétaire d'État auprès du Premier ministre et porte-parole du gouvernement, puis en 2008 secrétaire d'État chargé de l'Emploi. En 2010, il devient ministre chargé des Affaires européennes, avant d'être nommé ministre de l'Enseignement supérieur et de la Recherche en 2011.
+    Maire du Puy-en-Velay de 2008 à 2016 et à nouveau député de 2012 à 2017, il devient secrétaire général de l'UMP en 2014 et vice-président des Républicains en 2015. Il est élu président du conseil régional d'Auvergne-Rhône-Alpes en 2016.
+    Lors du congrès des Républicains de 2017, il est élu président du parti au premier tour de scrutin.
+  </Biographie>
+  <Parti>
+    Les Républicains (LR) est un parti politique gaulliste et libéral-conservateur français, classé à droite et au centre droit sur l'échiquier politique. Issu du changement de nom et de statuts de l'Union pour un mouvement populaire (UMP) en 2015, il s'inscrit dans la continuité des grands partis conservateurs français (UNR, UDR, RPR, UMP). Au niveau européen, il est membre du Parti populaire européen (PPE).
+  </Parti>
+  <logo>images/logo/logoLR.png</logo>
+</PartiLR>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Partis>
+  <Parti Nom = "EELV">
+    <Representant>Yannick Jadot</Representant>
+    <img>../images/portraits/Jadot.jpg</img>
+    <Biographie>
+      Yannick Jadot, né le 27 juillet 1967 à Clacy-et-Thierret (Aisne), est un militant écologiste et homme politique français.
+      Député européen depuis 2009, il est désigné candidat d'Europe Écologie Les Verts (EELV) à l'élection présidentielle de 2017 avant de se retirer en faveur de Benoît Hamon, candidat du parti socialiste.
+    </Biographie>
+    <Description>
+      Europe Écologie Les Verts (abrégé en EÉLV) est un parti politique écologiste français de centre gauche qui succède au parti Les Verts le 13 novembre 2010, à la suite d'un changement de statuts permettant de rassembler les militants venus dans le cadre des listes Europe Écologie aux élections européennes de 2009 et régionales de 2010.
+    </Description>
+    <logo>../images/logo/logoEELV.jpg</logo>
+  </Parti>
+
+  <Parti Nom ="RN">
+    <Representant>Jordan Bardella</Representant>
+    <img>../images/portraits/JordanBARDELLA.jpg</img>
+    <Biographie>
+      Jordan Bardella, né le 13 septembre 1995 à Drancy, est un homme politique français. Depuis 2012, il est membre du Front national, devenu le Rassemblement national.
+      Il est conseiller régional d’Île-de-France depuis 2015.
+      Aux élections européennes de 2019 en France, il conduit la liste du RN, qui arrive en tête du scrutin.
+    </Biographie>
+    <Description>
+      Le Rassemblement national (RN), dénommé Front national (FN) jusqu'au 1er juin 2018, est un parti politique français fondé en 1972 à l'initiative d'Ordre nouveau sous la dénomination officielle Front national pour l'unité française (FNUF). Il est présidé par Jean-Marie Le Pen — de sa création à 2011 — puis par sa fille Marine Le Pen.
+      Le FN émerge dans le paysage politique français au cours des années 1980, obtenant notamment, à l'issue des élections législatives de 1986, un groupe parlementaire (FN-RN) constitué de 35 députés. Candidat à l'élection présidentielle à cinq reprises, Jean-Marie Le Pen parvient à se qualifier au second tour du scrutin présidentiel de 2002 face à Jacques Chirac. Par la suite, le FN obtient d'importants succès électoraux, terminant notamment en première position aux élections européennes de 2014 et au premier tour des régionales de 2015. Marine Le Pen se qualifie au second tour de l'élection présidentielle de 2017, à l'issue duquel elle obtient 33,90 % des voix face à Emmanuel Macron.
+      La plupart des observateurs politiques situent le FN à l'extrême droite, mais ses représentants récusent en général cette appartenance pour lui préférer d'autres qualificatifs ou proposer d'autres façons d'envisager l'axe gauche-droite. Au niveau européen, il est membre du Mouvement pour l'Europe des nations et des libertés depuis 2014.
+      En 2018, le FN revendique 38 000 adhérents à jour de cotisation22.
+    </Description>
+    <logo>../images/logo/logoRN.jpg</logo>
+  </Parti>
+
+  <Parti Nom = "FI">
+    <Representant>Manon Aubry</Representant>
+    <img>../images/portraits/ManonAUBRY.jpg</img>
+    <Biographie>
+      Manon Aubry, née le 22 décembre 1989 à Fréjus (Var) , est une militante associative et femme politique française, membre du mouvement La France insoumise (LFI) depuis 2018.
+      Aux élections européennes de 2019, elle est la tête de liste de La France insoumise. Le parti finit cinquième avec 6,31 % des voix et obtient alors six des 74 sièges français au Parlement européen.
+    </Biographie>
+    <Description>
+      La France insoumise est un parti politique français de gauche fondé le 10 février 2016.
+      Le parti présente à l'élection présidentielle de 2017 la candidature de Jean-Luc Mélenchon, qui, à l'issue du premier tour, arrive en quatrième position avec 19,58 % des suffrages exprimés, dépassant largement le score du candidat du parti socialiste, Benoît Hamon (6,36 %). À l'issue du second tour des élections législatives de 2017, la France insoumise forme un groupe parlementaire de dix-sept députés à l'Assemblée nationale, qui élit à sa tête Jean-Luc Mélenchon en tant que président de groupe.
+    </Description>
+    <logo>../images/logo/logoFI.png</logo>
+  </Parti>
+
+  <Parti Nom ="LR">
+    <Representant>François-Xavier BELLAMY</Representant>
+    <img>../images/portraits/François-XavierBELLAMY.jpg</img>
+    <Biographie>
+      François-Xavier Bellamy, né le 11 octobre 1985 à Paris, est un professeur agrégé de philosophie, essayiste et homme politique français.
+      Adjoint au maire de Versailles depuis 2008, il conduit aux élections européennes de 2019 en France la liste des Républicains (LR), qui arrive en quatrième position.
+    </Biographie>
+    <Description>
+      Les Républicains (LR) est un parti politique gaulliste et libéral-conservateur français, classé à droite et au centre droit sur l'échiquier politique. Issu du changement de nom et de statuts de l'Union pour un mouvement populaire (UMP) en 2015, il s'inscrit dans la continuité des grands partis conservateurs français (UNR, UDR, RPR, UMP). Au niveau européen, il est membre du parti populaire européen (PPE).
+    </Description>
+    <logo>../images/logo/logoLR.png</logo>
+  </Parti>
+
+  <Parti Nom ="LREM">
+    <Representant>Nathalie LOISEAU</Representant>
+    <img>../images/portraits/NathalieLOISEAU.jpg</img>
+    <Biographie>
+      Nathalie Loiseau, née Ducoulombier le 1ᵉʳ juin 1964 à Neuilly-sur-Seine, est une haute fonctionnaire et femme politique française.
+      De 2017 à 2019, elle est ministre chargée des Affaires européennes dans le deuxième gouvernement Édouard Philippe. Elle quitte le Gouvernement pour conduire la liste de la majorité aux élections européennes de 2019 ; après avoir été longtemps donnée favorite des sondages, celle-ci arrive en deuxième position de scrutin.
+    </Biographie>
+    <Description>
+      La République en marche également appelée sous sa dénomination initiale, En marche est un parti politique social-libéral français, lancé le 6 avril 2016 par Emmanuel Macron. Le parti est parfois classé au centre de l'échiquier politique ou présenté comme un parti attrape-tout.
+      Élu président de la République en 2017, Emmanuel Macron démissionne de la présidence du mouvement qu'il a fondé. Le parti remporte les élections législatives de 2017.
+      L'actuel délégué général du parti est Stanislas Guerini, élu le 1er décembre 2018.
+    </Description>
+    <logo>../images/logo/logoLREM.jpg</logo>
+  </Parti>
+
+  <Parti Nom ="PS">
+    <Representant>Raphaël Gluksmann</Representant>
+    <img>../images/portraits/Gluksmann.jpg</img>
+    <Biographie>
+      Né en 1979 à Boulogne-Billancourt, Raphaël Glucksmann est un essayiste et homme politique français. Fils du philosophe André Glucksmann, Raphaël Glucksmann, essayiste de 39 ans, est le cofondateur du mouvement de gauche Place publique, lancé en novembre dernier. Il a été conseiller du président géorgien Mikheil Saakachvili et écrit une Descriptione de ses discours. En 2017, il devient chroniqueur sur France Inter et devient directeur de la rédaction du Nouveau Magazine littéraire jusqu'en 2018. En 2019, il est nommé tête de liste du PS et de Place publique aux élections européennes de 2019
+    </Biographie>
+    <Description>
+      Place publique (PP) est un parti politique français lancé fin 2018 par plusieurs personnalités, dont Raphaël Glucksmann, Thomas Porcher, Jo Spiegel et Claire Nouvian.
+    </Description>
+    <logo>../images/logo/logoPS.png</logo>
+  </Parti>
+
+  <Parti Nom ="DLF">
+    <Representant>Nicolas Dupont-Aignant</Representant>
+    <img>../images/portraits/NicolasDUPONT-AIGNAN.jpg</img>
+    <Biographie>
+      Nicolas Dupont-Aignan, né le 7 mars 1961 à Paris (15e), est un homme politique français.
+      Il est maire d'Yerres (Essonne) de 1995 à 2017 et député depuis 1997. Candidat aux élections présidentielles de 2012 et de 2017, il recueille respectivement 1,79 % et 4,70 % des suffrages exprimés.
+    </Biographie>
+    <Description>
+      Debout la France est un parti politique français, fondé en novembre 2008 par son actuel président Nicolas Dupont-Aignan
+      Avant de devenir un parti politique, il était, de 1999 à 2008, un courant du RPR, puis de l'UMP.
+    </Description>
+    <logo>../images/logo/logoDLF.png</logo>
+  </Parti>
+
+  <Parti Nom ="G.S">
+    <Representant>Benoît Hamon</Representant>
+    <img>../images/portraits/benoitHAMON.jpg</img>
+    <Biographie>
+      Benoît Hamon, né le 26 juin 1967 à Saint-Renan (Finistère), est un homme politique français.
+      Président du Mouvement des Jeunes socialistes de 1993 à 1995, il est député européen entre 2004 et 2009 pour la circonscription Est et porte-parole du Parti socialiste (PS) de 2008 à 2012.
+    </Biographie>
+    <Description>
+      Nommé Mouvement du 1er Juillet lors de sa fondation, il fait suite aux scores historiquement bas du Parti socialiste en 2017, lors de l'élection présidentielle où Benoît Hamon était le candidat du PS et des élections législatives. Il porte son nom actuel depuis le 2 décembre 2017.
+    </Description>
+    <logo>../images/logo/logoGS.png</logo>
+  </Parti>
+
+  <Parti Nom ="PCF">
+    <Representant>Ian Brossat</Representant>
+    <img>../images/portraits/IanBROSSAT.jpg</img>
+    <Biographie>
+      Ian Brossat, né le 23 avril 1980 à Fontenay-aux-Roses, est un homme politique français.
+      Membre du Parti communiste français, il est conseiller de Paris depuis 2008, maire-adjoint auprès d'Anne Hidalgo chargé du logement, de l'habitat durable et de l'hébergement d'urgence depuis 2014 et porte-parole du PCF depuis 2018.
+    </Biographie>
+    <Description>
+      Le Parti communiste français est un parti politique français fondé en 1920.
+      Dans l’immédiat après-Seconde Guerre mondiale, le parti constitue la première force de gauche en France.
+      À la fin des années 2000, le PCF noue une alliance avec le Parti de gauche (PG) au sein du Front de gauche, qui disparaît à la fin de la décennie suivante. Le parti poursuit ensuite sa chute électorale, n'obtenant en 2019 aucun siège au Parlement européen, un fait inédit dans son histoire.
+    </Description>
+    <logo>../images/logo/logoPCF.png</logo>
+  </Parti>
+</Partis>
